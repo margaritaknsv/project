@@ -1,0 +1,121 @@
+body {
+  background:url(../img/t.jpg) no-repeat ;
+  background-size: cover;
+  font-size: 17px;
+  font-family: "Trebuchet MS";
+}
+div.form {
+  margin: 0px auto auto;
+  width: 290px;
+  height: 560px;
+  padding: 20px 50px 30px;
+  text-align: center;
+}
+input[type=text], input[type=email], input[type=password] {
+  margin: 0px auto 20px ;
+  font-size: 16px;
+  padding: 10px;
+  width: 280px;
+  height:25px;
+  vertical-align: middle;
+  border-radius: 10px outset #F6F4F8;
+  border-style: outset;
+  background:#F6F4F8;
+  outline-color: #F6F4F8;
+  color: black;
+}
+div.check {
+	margin: -10px 0px -10px -160px;
+}
+div.check1 {
+	margin: -10px 80px 10px 0px;
+	display:inline-block;
+}
+div.doyou{
+	margin:0px -10px 10px 20px;
+	display:inline-block;
+}
+input[name='check_in'], input[name='checkin'],input[name='remem']  {
+  background: #8E8E8E;
+  color: #ECE5E6;
+  margin: 0px 20px 0px 0px;
+  font-family: Trebuchet MS;
+  font-size: 16px;
+  border-style: solid;
+  border-color:#8E8E8E;
+  width: 305px;
+  height:45px;
+  outline:none
+}
+input[name='check_in']:hover, input[name="checkin"]:hover, input[name="remem"]:hover {
+	background-color:#737472;
+	border-color:#737472
+}
+span {
+	color:#DCDCDC;
+	font-size:14px
+}
+input[name="person_ar"] {
+  background: #DEE2D1;
+  color: #5A565A;
+  font-size: 16px;
+  font-style: italic;
+  padding: 10px 55px;
+  margin: 20px auto;
+  border-radius: 15px;
+  outline:none;
+}
+input[name="person_ar"]:hover {
+	background-color:#CED2C3
+}
+select{
+	display:inline-block;
+	padding:3px 20px;
+	font-family: Trebuchet MS;
+	margin:-40px;
+	outline:none;
+	background:#F6F4F8;
+	border-style:outset;
+	border-radius: 10px outset #F6F4F8;
+}
+legend {
+	color:#E9E4BD;
+	font-family: Trebuchet MS
+}
+fieldset{
+	height:35px;
+	width:278px;
+	padding:5px 10px 18px;
+	margin-top:-10px
+}
+fieldset.date{
+	margin-bottom:20px;
+}
+a.remember{
+	color:#FFE7A1;
+	font-size:14px;
+	text-decoration: none
+}
+a.remember:hover {
+  text-decoration: underline;
+}
+p.header {
+    font-size: 30px;
+    margin: 60px auto 0;
+    text-align: center;
+	color:#E6E3E3
+}
+p.soc_net {
+  font-size: 17px;
+  color: #E6E3E3;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+p.header1 {
+	font-size:20px;
+	margin: 60px auto 0;
+    text-align: center;
+	color:#E6E3E3
+}
+
+
